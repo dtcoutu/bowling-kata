@@ -38,6 +38,8 @@ libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % 
 
 // "org.scala-lang.modules" %% "scala-parser-combinators" % "1.1.2"
 
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.8" % Test
+
 // You can use Scaladex, an index of all known published Scala libraries. There,
 // after you find the library you want, you can just copy/paste the dependency
 // information that you need into your build file. For example, on the

@@ -1,2 +1,9 @@
+target
 *.class
 *.log
+
+# Intellij
+*.iml
+*.ipr
+*.iws
+.idea
