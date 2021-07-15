@@ -8,4 +8,13 @@ class FrameSpec extends FunSpec {
       assert(score == 0)
     }
   }
+
+  describe("Frame::ball") {
+    it ("can call the method ball and add appropriate points to the score") {
+      var frame = new Frame()
+      val pins = 7
+      val points = frame.ball(pins)
+      assert(points == 7)
+    }
+  }
 }
