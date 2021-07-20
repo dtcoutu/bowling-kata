@@ -1,4 +1,8 @@
 
-class Frame() {
-  def score:Int = 0
+class Frame(balls: List[Int] = List()) {
+  def ball(pins: Int): Frame = {
+    new Frame(this.balls :+ pins)
+  }
+
+  def score:Int = balls.sum
 }
